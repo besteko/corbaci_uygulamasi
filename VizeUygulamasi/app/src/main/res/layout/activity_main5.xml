@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            app:srcCompat="@drawable/bklogo" />
+
+        <TextView
+            android:id="@+id/corbacek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF5722"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/icinde"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF5722"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            android:text="İçinde" />
+
+        <TextView
+            android:id="@+id/ozellikler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="#FF5722"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="#FF5722"
+            android:text="Olsun" />
+
+        <TextView
+            android:id="@+id/ekstraistek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="#FF5722"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:text="Ekstra" />
+
+        <TextView
+            android:id="@+id/yenisiparis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="Yeni Sipariş" />
+
+        <ImageView
+            android:id="@+id/cikis"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/cikis" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
